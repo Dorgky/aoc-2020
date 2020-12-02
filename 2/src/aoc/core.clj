@@ -27,13 +27,13 @@
         position-list (char-locations password search-char)]
     ; Part 1
     (and 
-        (<= min-repetitions (or char-count 0))
-        (>= max-repetitions (or char-count) 0))
+        (<= min-repetitions char-count)
+        (>= max-repetitions char-count))
     ; Part 2
     (->> (filter #(or (= min-repetitions (inc %))
                       (= max-repetitions (inc %))) position-list)
          count
-         (= 1)))) 
+         (= 1))))
 
 (defn count-valid-passwords [matched-so-far next-password]
   (let [password-data (str/split next-password #" ")
