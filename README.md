@@ -1,7 +1,7 @@
 # Advent of Code
 
 [Day 1](1) `C++`  
-[Day 2](2) `Clojure`
+[Day 2](2) `Clojure`  
 [Day 3](3) `C++` 
 
 Language ideas to try:
