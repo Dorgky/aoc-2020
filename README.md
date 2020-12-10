@@ -1,5 +1,7 @@
 # [Advent of Code 2020](https://adventofcode.com/2020)
 
+These days I normally code in `Clojure` and `Java` so I'm going to use this as a refresher on `C++` for the most part.
+
 ## Solutions
 
 - [Day 1](01) `C++`  
