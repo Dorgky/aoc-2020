@@ -17,6 +17,6 @@ These days I normally code in `Clojure` and `Java` so I'm going to use this as a
 
 ## Build/Run Instructions
 
-- In `Clojure` all you need is `leiningen` to run it, I used the `vim-fireplace` repl to run it but you can just remove the comments (`#_`) to run it with `lein run`.
+- In `Clojure` all you need is `leiningen` to run it. I used `vim-fireplace` along with `lein repl` to run it in my editor but you can just remove the comments (`#_`) to run it with `lein run`.
 - In `C++` you can compile/run with something like `g++ main.cpp && cat inputs.txt | ./a.out`
 
