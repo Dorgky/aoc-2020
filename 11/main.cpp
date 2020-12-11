@@ -71,7 +71,7 @@ int count_visible_surrounding_seats(vector<vector<int>> *seat_map, int row, int 
   int seat_count = 0;
   int seat_direction = 0;
 
-  for(int i = 1 ; i < seat_map->size(); i++) {
+  for(int i = 1 ; i < seat_map->size() && seat_direction != ((1 << 8) - 1); i++) {
     trace_direction(seat_map, row - i, col, &seat_direction, 0, &seat_count);
     trace_direction(seat_map, row + i, col, &seat_direction, 1, &seat_count);
     trace_direction(seat_map, row - i, col - i, &seat_direction, 2, &seat_count);
