@@ -16,6 +16,7 @@ These days I normally code in `Clojure` and `Java` so I'm going to use this as a
 - [Day 10](10) `C++`  
 - [Day 11](11) `C++`  
 - [Day 12](12) `C++`  
+- [Day 13](13) `C++`  
 
 ## Build/Run Instructions
 
