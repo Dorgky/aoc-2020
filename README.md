@@ -28,6 +28,7 @@ These days I normally code in `Clojure` and `Java` so I'm going to use this as a
 - [Day 22](22) `C++`  
 - [Day 23](23) `C++`  
 - [Day 24](24) `C++`  
+- [Day 25](25) `C++`  
 
 ## Build/Run Instructions
 
